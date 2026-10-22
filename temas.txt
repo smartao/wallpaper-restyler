@@ -1,0 +1,71 @@
+# Um tema por linha, no formato:   nome | prompt
+# - "nome" vira a subpasta em saida/ (use letras, números, - ou _)
+# - Linhas começando com # são ignoradas
+# - A linha especial "sufixo" é adicionada ao final de TODOS os prompts
+
+sufixo | Mantenha a mesma composição, enquadramento e proporção paisagem (16:9) da imagem original. Gere apenas uma imagem.
+
+# --- Estilos visuais ---
+concept-art         | Altere o estilo da imagem para concept art cinematográfico, com iluminação dramática, atmosfera épica e acabamento de pintura digital de filme.
+dark-scifi          | Altere o estilo da imagem para dark sci-fi industrial, com estruturas metálicas pesadas, tubulações, fumaça, tons escuros e iluminação fria.
+minimalismo-tech    | Altere o estilo da imagem para minimalismo tecnológico, com formas limpas, poucos elementos, linhas finas, paleta reduzida e muito espaço negativo.
+#neo-noir            | Altere o estilo da imagem para neo-noir, com sombras profundas, alto contraste, chuva, reflexos e luzes neon em tons de vermelho e azul.
+futurismo-clean     | Altere o estilo da imagem para futurismo clean high-tech, com superfícies brancas e brilhantes, iluminação suave, detalhes em vidro e luzes azuladas.
+matrix-industrial   | Altere o estilo da imagem para Matrix industrial, com tons verdes, código digital em cascata, máquinas, cabos e atmosfera sombria.
+cyberpunk           | Altere o estilo da imagem para cyberpunk, com luzes neon e atmosfera noturna futurista.
+
+# --- Anime / Hacker ---
+evangelion          | Altere o estilo da imagem para Neon Genesis Evangelion, com estética de anime dos anos 90, paleta roxa, verde e laranja, interfaces da NERV e tipografia de alerta.
+kali-linux          | Altere o estilo da imagem para o tema Kali Linux, com fundo escuro, tons de azul e ciano, o dragão do Kali estilizado e elementos de terminal.
+hacker              | Altere o estilo da imagem para tema hacker, com terminais, linhas de código, tela escura, verde fosforescente e atmosfera de invasão digital.
+ghost-in-the-shell  | Altere o estilo da imagem para Ghost in the Shell, com estética de anime cyberpunk, cidade densa, ciborgues, hologramas e tons azul-esverdeados.
+#serial-experiments-lain | Altere o estilo da imagem para Serial Experiments Lain, com estética de anime dos anos 90, fios elétricos, sombras com manchas vermelhas, atmosfera onírica e perturbadora e computadores antigos.
+
+# --- Fórmula 1 ---
+formula1            | Altere o estilo da imagem para tema Fórmula 1, com carros de F1, pista, velocidade, motion blur e cores vibrantes.
+formula1-noturna    | Altere o estilo da imagem para tema Fórmula 1 em corrida noturna, com pista iluminada por holofotes, reflexos no asfalto, luzes da cidade e rastros de luz dos carros.
+
+# --- Star Wars ---
+starwars-imperio    | Altere o estilo da imagem para Star Wars, tema Império Galáctico.
+starwars-republica  | Altere o estilo da imagem para Star Wars, tema República e Ordem Jedi, com templo Jedi, sabres de luz azuis e verdes, tons claros e dourados e atmosfera nobre.
+
+# --- Militar ---
+militar             | Altere o estilo da imagem para tema militar, com veículos e equipamentos militares, camuflagem, tons verde-oliva e atmosfera tática.
+militar-futurista   | Altere o estilo da imagem para tema militar futurista, com exoesqueletos, mechas, drones, armaduras tecnológicas e base militar sci-fi.
+
+
+
+
+
+# Recomendacoes Claude
+# --- Estilos visuais (novos) ---
+#synthwave           | Altere o estilo da imagem para synthwave/outrun dos anos 80, com sol poente em gradiente, grade neon roxa e rosa, palmeiras em silhueta e atmosfera retrô-futurista.
+#solarpunk           | Altere o estilo da imagem para solarpunk, com arquitetura futurista integrada à vegetação, painéis solares, luz dourada e atmosfera otimista.
+blade-runner        | Altere o estilo da imagem para Blade Runner, com cidade distópica, chuva constante, névoa, outdoors holográficos gigantes e tons âmbar e azul-petróleo.
+#brutalismo-scifi    | Altere o estilo da imagem para brutalismo sci-fi, com megaestruturas de concreto monumentais, escala opressiva, névoa e iluminação fria e difusa.
+#retro-terminal      | Altere o estilo da imagem para terminal CRT retrô, com tela de fósforo âmbar, scanlines, curvatura de tubo, brilho e ruído analógico.
+#vaporwave           | Altere o estilo da imagem para vaporwave, com paleta rosa e ciano, estátuas gregas, interfaces de Windows 95, grade em perspectiva e estética glitch.
+
+# --- Anime / Hacker (novos) ---
+akira               | Altere o estilo da imagem para Akira, com Neo-Tóquio, motos vermelhas, rastros de luz, destruição urbana e estética de anime cel dos anos 80.
+#cowboy-bebop        | Altere o estilo da imagem para Cowboy Bebop, com estética de anime dos anos 90, naves espaciais, tons jazzísticos quentes e atmosfera noir espacial.
+mr-robot            | Altere o estilo da imagem para Mr. Robot, com tons frios e dessaturados, enquadramento descentralizado, máscara fsociety e terminais Linux.
+#tron-legacy         | Altere o estilo da imagem para Tron Legacy, com fundo preto, linhas de luz ciano e laranja, grade digital e superfícies espelhadas.
+gundam              | Altere o estilo da imagem para Mobile Suit Gundam, com mobile suits gigantes, colônias espaciais, hangares e estética de anime mecha.
+akira-psycho-pass   | Altere o estilo da imagem para Psycho-Pass, com cidade hipervigiada, hologramas, drones e tons azul e verde clínicos.
+
+# --- Franquias sci-fi ---
+starwars-sith       | Altere o estilo da imagem para Star Wars, tema Sith, com tons vermelhos e pretos, sabres de luz vermelhos, ruínas sombrias e tempestades de raios.
+#star-wars-mandalorian | Altere o estilo da imagem para The Mandalorian, com armadura beskar, planetas desérticos, estética western espacial e luz dourada.
+#dune                | Altere o estilo da imagem para Duna, com desertos colossais, vermes de areia, ornitópteros, arquitetura monumental e tons ocre e laranja.
+#alien-nostromo      | Altere o estilo da imagem para Alien (1979), com corredores industriais da Nostromo, estética biomecânica de H.R. Giger, luzes piscando e terror claustrofóbico.
+#warhammer-40k       | Altere o estilo da imagem para Warhammer 40.000, com estética gótica imperial, catedrais espaciais, Space Marines e atmosfera sombria e grandiosa.
+#halo                | Altere o estilo da imagem para Halo, com anel orbital no céu, Spartans em armadura, veículos da UNSC e paisagens alienígenas.
+
+# --- Velocidade ---
+#initial-d           | Altere o estilo da imagem para Initial D, com drift em estrada de montanha à noite, rastros de luz e estética de anime de corrida.
+#le-mans-retro       | Altere o estilo da imagem para corrida de Le Mans retrô dos anos 70, com carros clássicos de endurance, granulação de filme e cores quentes desbotadas.
+
+# --- Militar (novos) ---
+#militar-guerra-fria | Altere o estilo da imagem para Guerra Fria, com bunkers, radares, telas de comando verdes, mapas táticos e tons dessaturados.
+metal-gear          | Altere o estilo da imagem para Metal Gear Solid, com infiltração tática, codec, Metal Gear gigante, base secreta e iluminação dramática.
