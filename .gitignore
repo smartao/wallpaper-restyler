@@ -1,0 +1,11 @@
+# Sessão logada do ChatGPT (cookies) — NUNCA versionar
+perfil_chatgpt/
+
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+
+# Imagens de entrada e resultados (pesadas; o script recria as pastas)
+entrada/
+saida/
