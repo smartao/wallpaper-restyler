@@ -47,6 +47,25 @@ As opções podem ser combinadas, ex.: `--temas formula1 --limite 3`.
 - **Durante a execução:** pode usar o computador normalmente; só não clique nem feche
   a janela do Chromium aberta pelo script. Se o PC suspender, a execução para.
 
+## Exportar e importar imagens (`organizar.py`)
+
+Move as imagens geradas entre `saida/` e as pastas `exportar/` e `importar/`.
+
+| Comando | O que faz |
+|---|---|
+| `python3 organizar.py exportar` | Move as imagens de todas as pastas de tema de `saida/` para `exportar/` (todas juntas na mesma pasta) |
+| `python3 organizar.py importar` | Move as imagens de `importar/` para `saida/<tema>/`, de acordo com o sufixo do nome |
+| `python3 organizar.py <ação> --simular` | Só mostra o que seria movido, sem mover nada |
+
+- **Como o tema é reconhecido:** pelo final do nome, `<imagem>-<tema>.png` ou `<imagem>-<tema>-02.png`.
+  Se dois temas servem (ex.: `akira` e `akira-psycho-pass`), vale o nome mais longo.
+  Valem os temas de `temas.txt` e as pastas que já existem em `saida/`.
+- **Sem tema reconhecido:** a imagem fica em `importar/` e aparece listada no final.
+- **Nada é sobrescrito:** se o arquivo já existe no destino, ele é pulado com um aviso.
+- `saida/_erros/` é ignorada na exportação.
+- **Atenção:** enquanto as imagens estiverem em `exportar/`, o `wallpapers.py` acha que
+  essas combinações estão pendentes e gera tudo de novo. Rode `importar` antes de voltar a usá-lo.
+
 ## Se parar de funcionar
 
 O ChatGPT muda o site de tempos em tempos. Os seletores ficam no início de
