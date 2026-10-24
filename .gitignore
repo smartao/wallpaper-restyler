@@ -9,3 +9,6 @@ __pycache__/
 # Imagens de entrada e resultados (pesadas; o script recria as pastas)
 entrada/
 saida/
+
+# Custom
+comandos.txt
