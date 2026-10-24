@@ -11,4 +11,7 @@ entrada/
 saida/
 
 # Custom
+exportar
+importar
 comandos.txt
+*.zip
