@@ -59,9 +59,21 @@ importar/       --importar (move)--->  finalizadas/<tema>/
 | Comando | O que faz |
 |---|---|
 | `python3 organizar.py exportar` | Copia para `exportar/` (todas juntas) as imagens de `saida/` que ainda não foram exportadas |
-| `python3 organizar.py exportar --todas` | Exporta tudo de novo, inclusive o que já foi exportado |
+| `python3 organizar.py exportar --todas` | Ignora `exportadas.txt` e exporta tudo de novo, inclusive o que já foi exportado |
+| `python3 organizar.py exportar --simular` | Só mostra o que seria exportado, sem copiar nada |
+| `python3 organizar.py exportar --todas --simular` | Só mostra o que seria exportado com `--todas` |
 | `python3 organizar.py importar` | Move as imagens de `importar/` para `finalizadas/<tema>/`, de acordo com o sufixo do nome |
-| `python3 organizar.py <ação> --simular` | Só mostra o que seria feito, sem copiar/mover nada |
+| `python3 organizar.py importar --simular` | Só mostra o que seria movido, sem mover nada |
+| `python3 organizar.py --help` | Mostra todas as opções |
+
+Opções:
+
+- `--simular`: vale para `exportar` e `importar`; não altera nenhum arquivo.
+- `--todas`: só tem efeito em `exportar`.
+
+> **Apareceu "0 imagem(ns) copiada(s)" com imagens em `saida/`?** Elas já foram exportadas antes e
+> estão registradas em `exportadas.txt`. Use `--todas` para exportar de novo, ou apague
+> `exportadas.txt` (ou só as linhas das imagens desejadas).
 
 Fluxo de um lote:
 
