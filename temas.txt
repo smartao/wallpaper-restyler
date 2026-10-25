@@ -7,7 +7,6 @@ sufixo | Mantenha a mesma composição, enquadramento e proporção paisagem (16
 
 # --- Estilos visuais ---
 concept-art         | Altere o estilo da imagem para concept art cinematográfico, com iluminação dramática, atmosfera épica e acabamento de pintura digital de filme.
-dark-scifi          | Altere o estilo da imagem para dark sci-fi industrial, com estruturas metálicas pesadas, tubulações, fumaça, tons escuros e iluminação fria.
 minimalismo-tech    | Altere o estilo da imagem para minimalismo tecnológico, com formas limpas, poucos elementos, linhas finas, paleta reduzida e muito espaço negativo.
 futurismo-clean     | Altere o estilo da imagem para futurismo clean high-tech, com superfícies brancas e brilhantes, iluminação suave, detalhes em vidro e luzes azuladas.
 matrix-industrial   | Altere o estilo da imagem para Matrix industrial, com tons verdes, código digital em cascata, máquinas, cabos e atmosfera sombria.
@@ -24,7 +23,6 @@ gundam              | Altere o estilo da imagem para Mobile Suit Gundam, com mob
 akira-psycho-pass   | Altere o estilo da imagem para Psycho-Pass, com cidade hipervigiada, hologramas, drones e tons azul e verde clínicos.
 
 # --- Fórmula 1 ---
-#formula1            | Altere o estilo da imagem para tema Fórmula 1, com carros de F1, pista, velocidade, motion blur e cores vibrantes.
 formula1-noturna    | Altere o estilo da imagem para tema Fórmula 1 em corrida noturna, com pista iluminada por holofotes, reflexos no asfalto, luzes da cidade e rastros de luz dos carros.
 
 # --- Star Wars ---
@@ -48,6 +46,7 @@ metal-gear          | Altere o estilo da imagem para Metal Gear Solid, com infil
 #retro-terminal      | Altere o estilo da imagem para terminal CRT retrô, com tela de fósforo âmbar, scanlines, curvatura de tubo, brilho e ruído analógico.
 #vaporwave           | Altere o estilo da imagem para vaporwave, com paleta rosa e ciano, estátuas gregas, interfaces de Windows 95, grade em perspectiva e estética glitch.
 #neo-noir            | Altere o estilo da imagem para neo-noir, com sombras profundas, alto contraste, chuva, reflexos e luzes neon em tons de vermelho e azul.
+#dark-scifi          | Altere o estilo da imagem para dark sci-fi industrial, com estruturas metálicas pesadas, tubulações, fumaça, tons escuros e iluminação fria.
 
 # --- Anime / Hacker (novos) ---
 #cowboy-bebop        | Altere o estilo da imagem para Cowboy Bebop, com estética de anime dos anos 90, naves espaciais, tons jazzísticos quentes e atmosfera noir espacial.
@@ -63,6 +62,7 @@ metal-gear          | Altere o estilo da imagem para Metal Gear Solid, com infil
 #halo                | Altere o estilo da imagem para Halo, com anel orbital no céu, Spartans em armadura, veículos da UNSC e paisagens alienígenas.
 
 # --- Velocidade ---
+#formula1            | Altere o estilo da imagem para tema Fórmula 1, com carros de F1, pista, velocidade, motion blur e cores vibrantes.
 #initial-d           | Altere o estilo da imagem para Initial D, com drift em estrada de montanha à noite, rastros de luz e estética de anime de corrida.
 #le-mans-retro       | Altere o estilo da imagem para corrida de Le Mans retrô dos anos 70, com carros clássicos de endurance, granulação de filme e cores quentes desbotadas.
 
