@@ -129,10 +129,10 @@ def listar_imagens():
 
 
 def tarefas_pendentes(imagens, temas, limite):
-    # Todas as imagens passam por um tema antes de ir para o próximo.
+    # Temas em ordem alfabética; todas as imagens passam por um tema antes de ir para o próximo.
     pendentes = [
         (img, nome, prompt)
-        for nome, prompt in temas.items()
+        for nome, prompt in sorted(temas.items())
         for img in imagens
         if not (SAIDA / nome / f"{img.stem}-{nome}.png").exists()
     ]
